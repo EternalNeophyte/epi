@@ -14,7 +14,6 @@ import static java.util.Arrays.stream;
 public final class PerformanceMath {
 
     private static final int BOUND = 0x100000;
-    public static final int DEFAULT_SCALE = 6;
     private static final double NANO_MULTIPLIER = 10e-6;
 
     private static final Random RANDOM = new Random();

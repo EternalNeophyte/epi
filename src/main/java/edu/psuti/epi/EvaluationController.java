@@ -14,7 +14,7 @@ public class EvaluationController {
                               @RequestParam("runs") int runs,
                               @RequestParam(value = "scale",
                                             required = false,
-                                            defaultValue = PerformanceMath.DEFAULT_SCALE + "") int scale) {
+                                            defaultValue = "6") int scale) {
         return PerformanceMath.evaluate(size, runs, scale);
     }
 }
