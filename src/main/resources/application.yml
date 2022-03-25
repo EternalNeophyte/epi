@@ -1,0 +1,4 @@
+server:
+  port: 6200
+  servlet:
+    context-path: '/epi'
