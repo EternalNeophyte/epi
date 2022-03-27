@@ -1,5 +1,6 @@
-package edu.psuti.epi;
+package edu.psuti.epi.math;
 
+import edu.psuti.epi.dto.Evaluation;
 import org.apache.commons.math3.stat.descriptive.moment.Mean;
 import org.apache.commons.math3.stat.descriptive.moment.Variance;
 
@@ -20,7 +21,7 @@ public final class PerformanceMath {
     private static final Variance VARIANCE = new Variance();    //дисперсия
     private static final Mean MEAN = new Mean();                //мат. ожидание
 
-    public static Evaluation evaluate(int size, int runs, int scale) {
+    public static Evaluation evaluate(int size, int runs, int precision) {
         int[] numbers = RANDOM.ints(size, 0, BOUND).toArray();
         double[] timings = new double[runs];
         long sortStart;
@@ -31,7 +32,7 @@ public final class PerformanceMath {
             timings[i] = (nanoTime() - sortStart) * NANO_MULTIPLIER;
         }
 
-        DecimalFormat df = new DecimalFormat("#." + "#".repeat(scale));
+        DecimalFormat df = new DecimalFormat("#." + "#".repeat(precision));
         df.setRoundingMode(RoundingMode.HALF_UP);
         String[] formattedTimings = stream(timings)
                 .mapToObj(df::format)

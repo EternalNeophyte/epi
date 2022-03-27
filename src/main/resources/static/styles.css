@@ -1,0 +1,153 @@
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+#top-place {
+    font-family: 'Exo 2', sans-serif;
+    background: #16151a;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images3.alphacoders.com/202/202209.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(10, 15, 19, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    position: relative;
+}
+
+#hero h1 {
+    margin-top: -75px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+}
+
+#hero h2 {
+    margin: 0 0 0 0;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #fff;
+}
+
+#hero .icon-box h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#hero .icon-box h3 a {
+    color: #b3c9f7;
+}
+
+#hero .icon-box h3 a:hover {
+    color: #257bfdcb;
+}
+
+#computer-modelling {
+    background: linear-gradient(#161616, #353535);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#transit-banner-one {
+    background: linear-gradient(rgba(10, 15, 19, 0.4), rgba(10, 15, 19, 0.8)), 
+    url(https://i.artfile.ru/1920x1080_895775_[www.ArtFile.ru].jpg) 
+    fixed center center;
+    padding: 250px 0;
+    color: #b3c9f7;
+}
+
+#hpc {
+    background: linear-gradient(#353535, #161616);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#transit-banner-two {
+    background: linear-gradient(rgba(10, 15, 19, 0.4), rgba(10, 15, 19, 0.8)), 
+    url(https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/608308/a-bank-of-servers-in-a-data-center.jpg&w=2000&op=resize) 
+    fixed center center;
+    padding: 250px 0;
+    color: #b3c9f7;
+}
+
+#benchmarks {
+    background: linear-gradient(#161616, #353535);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#transit-banner-three {
+    background: linear-gradient(rgba(10, 15, 19, 0.4), rgba(10, 15, 19, 0.8)), 
+    url(https://www.innovationnewsnetwork.com/wp-content/uploads/2020/04/%C2%A9-iStock-monsitj.jpg) 
+    fixed center center;
+    padding: 250px 0;
+    color: #b3c9f7;
+}
+
+#practice-block {
+    background: linear-gradient(#353535, #161616);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#shaded {
+    background-color:rgba(0,0,0,0.5);
+}
+
+#shaded:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 200;
+}
+
+#not-shaded {
+    color: #fff;
+    z-index: 300;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
+
+
+
+
