@@ -146,6 +146,23 @@ h3 {
     display: block;
 }
 
+#transit-banner-four {
+    background: linear-gradient(rgba(10, 15, 19, 0.4), rgba(10, 15, 19, 0.8)),
+    url(https://images3.alphacoders.com/202/202209.jpg)
+    fixed center center;
+    padding: 250px 0;
+    color: #b3c9f7;
+}
+
+#ref-block {
+    background: linear-gradient(#161616, #353535);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    font-size: 20px;
+}
 
 
 
